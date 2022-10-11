@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.input {
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  padding: 16px;
+  width: inherit;
+  color: var(--gray-300);
+  background-color: var(--gray-500);
+}
+
+.input:focus {
+  border: 1px solid var(--purple-dark);
+  color: var(--gray-100);
+}

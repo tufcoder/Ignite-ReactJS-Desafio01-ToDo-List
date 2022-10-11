@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  border: 0;
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 0.875rem; /* 14px */
+  font-weight: 700;
+  color: var(--gray-100);
+  background-color: var(--blue-dark);
+  cursor: pointer;
+  transition: background .2s ease-out;
+}
+
+.button:hover {
+  background-color: var(--blue);
+}
