@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  color: var(--blue);
+  background-color: var(--gray-700);
+}
+
+.container svg {
+  margin-right: 12px;
+}
+
+.container h1 {
+  font-size: 2.5rem; /* 40px */
+  font-weight: 900;
+  line-height: 3rem; /* 48px */
+}
+
+.container h1:last-child {
+  color: var(--purple-dark);
+}
