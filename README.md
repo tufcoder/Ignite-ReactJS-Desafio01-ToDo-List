@@ -16,7 +16,3 @@ Apesar de serem poucas funcionalidades, você vai precisar relembrar conceitos c
 * Listas e chaves no ReactJS
 * Propriedades
 * Componentização
-
-## Preview
-
-https://tuf-code-reactjs-todo-list.netlify.app/
